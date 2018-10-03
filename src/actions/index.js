@@ -1,6 +1,6 @@
 import axios from "axios";
 import { AUTH_USER, AUTH_ERROR } from "./types";
-const api = "https://mediedge.herokuapp.com";
+const api = "YOUR_BACKEND_API_URL";
 
 //@dispatch is also a function provided by redux, if we return a function from ation creator that will automatically be called with a dispatch function
 export const signup = (formProps, callback) => async dispatch => {
