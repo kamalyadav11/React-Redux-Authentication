@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("../src/img/blue.jpeg");
+  /* max-width: 100%; */
+  background-size: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    /* background-size: 100%; The width is 100%, when the viewport is 800px or smaller */
+    background-size: 100%;
+  }
+}

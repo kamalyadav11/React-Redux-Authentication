@@ -1,0 +1,75 @@
+.card {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  width: 25%;
+  margin-left: 540px;
+  margin-top: 140px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 24px 16px;
+}
+
+.input__title {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 24px 18px;
+  box-sizing: border-box;
+  border: 1px solid #dae0e2;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: #99aaab;
+  font-size: 16px;
+}
+
+.div-text {
+  float: right;
+  padding: 5px;
+  margin: 10px;
+  color: #3a404b;
+}
+
+.span-text {
+  color: #0069ff;
+}
+
+.red-border__error {
+  border: 1px solid red;
+}
+
+.red-text__error {
+  color: red;
+  margin: 0px 18px;
+  font-size: 10px;
+}
+
+.title__lable {
+  margin: 10px;
+}
+
+.flex-containers {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  background-color: #0069ff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 20px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 90%;
+}
